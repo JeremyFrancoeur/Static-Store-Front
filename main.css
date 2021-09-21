@@ -1,7 +1,7 @@
 /*Common elemants  */
 body{
     font-size: 67.5%;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: #39150C url(assets/Wood\ Background.jpg) no-repeat fixed top center;
     
     -webkit-background-size: 100% 100%;
@@ -11,7 +11,7 @@ body{
 }
 
 h1{
-    color: #2BA967;
+    color: red;
     font-size: 2.0em;
     margin: 0.5em 0 0.35em 0;
     padding: 0;
@@ -30,38 +30,32 @@ p{
 }
 
 ol{
-    font-size: 1.2em;
-    margin: 0 0 0 1.0em;
-    padding: 0 0 0 1.0em;
-}
-
-ol li{
-    margin: 0;
-    padding: 0 0 0.2em;
+    font-size: 18px;
 }
 
 a, a:visited{
-    color: #C64322;
+    color: red;
 }
 
 a:hover{
-    color: #333;
+    color: blue;
 }
 
 hr{
     padding: 0;
-    margin: 1.5em 1.5em 0.75em 0.5em;
+    margin: 0.75px 0.5px;
 }
 
 .contentWrapper{
     margin: 0 auto;
     max-width: 1170px;
-    padding: 0 3.0em;
+    padding: 3px;
     float: right;
 }
 
 .left{
     float: left;
+    
 }
 
 .right{
